@@ -1,6 +1,91 @@
+header {
+    padding: 20px 0;
+    background: linear-gradient(to right, rgb(8 68 139) 20%, #2e56c6 80%);
+}
+
+.container_head {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 900px;
+    margin: 0 auto;
+    grid-column-gap: 150px;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.title_header {
+    font-size: 90px;
+    font-family: Luminari;
+    font-style: italic;
+    font-weight: 700;
+    color: grey;
+    letter-spacing: 60px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #392323, 0 0 1em #222020, 0 0 0.2em #b7b7e3;
+}
+
+.text_logo {
+    font-size: 24px;
+    font-family: Comic Sans MS;
+    font-style: oblique;
+    font-weight: 700;
+    color: white;
+    width: auto;
+    text-shadow: #dcd8c4 1px 0 10px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 120px;
+    position: relative;
+    top: 10px;
+    gap: 10px;
+}
+
+.button {
+    width: 120px;
+    height: auto;
+    text-align: center;
+    border: 1px solid rgb(35, 34, 34);
+    background-color: rgba(128, 128, 128, 0.482);
+    border-radius: 30%;
+}
+
+.button:hover {
+    background-color: rgb(67, 62, 62);
+}
+
+.text_menu {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: white;
+    width: auto;
+    position: relative;
+    top: 6px;
+}
+
+.text_menu:hover {
+    font-weight: bold;
+    color: black;
+    text-shadow: white 1px 0 10px;
+}
+
+.text_menu_one_word {
+    position: relative;
+    top: 16px;
+}
+
 footer {
     margin: 0 auto;
-    background: linear-gradient(to right, rgb(23 83 153) 20%, #153ba7 80%);
+    background: linear-gradient(to right, rgb(22 47 122) 20%, #153ba7 80%);
     height: auto;
 }
 
@@ -8,7 +93,8 @@ footer {
     width: 800px;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .position {
@@ -37,6 +123,7 @@ footer {
     letter-spacing: 10px;
     text-align: center;
     text-shadow: rgb(238 236 229) 3px 5px 8px;
+    margin: 10px 0 50px 0;
 }
 
 .text-foot {
@@ -44,8 +131,12 @@ footer {
     font-size: 25px;
     font-family: URW Chancery L;
     font-style: oblique;
-    /*font-weight: 700; */
-    color: #f1e4e4;
+    color: white;
     word-spacing: 5px;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: white 1px 0 10px;
+}
+
+.text-foot:hover {
+    color: black;
+    text-decoration: underline;
 }

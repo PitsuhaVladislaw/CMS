@@ -1,6 +1,6 @@
 footer {
     margin: 0 auto;
-    background: linear-gradient(to right, rgb(23 83 153) 20%, #153ba7 80%);
+    background: linear-gradient(to right, rgb(22 47 122) 20%, #153ba7 80%);
     height: auto;
 }
 
@@ -8,7 +8,8 @@ footer {
     width: 800px;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .position {
@@ -33,10 +34,11 @@ footer {
     font-family: сursive;
     font-weight: 400;
     font-style: italic;
-    color: white;
+    color: rgb(255, 255, 255);
     letter-spacing: 10px;
     text-align: center;
     text-shadow: rgb(238 236 229) 3px 5px 8px;
+    margin: 10px 0 50px 0;
 }
 
 .text-foot {
@@ -44,8 +46,12 @@ footer {
     font-size: 25px;
     font-family: URW Chancery L;
     font-style: oblique;
-    /*font-weight: 700; */
-    color: #f1e4e4;
+    color: white;
     word-spacing: 5px;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: white 1px 0 10px;
+}
+
+.text-foot:hover {
+    color: rgb(48, 46, 46);
+    text-decoration: underline;
 }
