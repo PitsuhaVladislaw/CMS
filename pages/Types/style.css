@@ -1,3 +1,5 @@
+/* Шапка страницы */
+
 header {
     padding: 20px 0;
     background: linear-gradient(to right, rgb(8 68 139) 20%, #2e56c6 80%);
@@ -62,6 +64,26 @@ header {
     background-color: rgb(67, 62, 62);
 }
 
+.text_check {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: rgb(6, 6, 6);
+    width: auto;
+    position: relative;
+    top: 6px;
+    text-shadow: 2px 2px 3px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+.button_check {
+    width: 120px;
+    height: auto;
+    text-align: center;
+    border: 1px solid rgb(35, 34, 34);
+    background-color: rgb(28, 50, 105);
+    border-radius: 30%;
+}
+
 .text_menu {
     font-size: 16px;
     font-family: sans-serif;
@@ -83,6 +105,85 @@ header {
     top: 16px;
 }
 
+
+/* Тело страницы */
+
+main {
+    padding: 10px;
+    height: auto;
+    background: linear-gradient(to bottom, rgb(89 146 212) 20%, #3b5291 80%);
+}
+
+.gluing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 0;
+}
+
+.sector {
+    height: auto;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.block {
+    width: 550px;
+    border: 5px double #112351;
+    padding: 10px;
+    border-radius: 10%;
+    height: auto;
+    background: #1b558f;
+}
+
+.h1_main {
+    font-size: 50px;
+    font-family: FreeMono;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 2px 2px 3px black, 10px 10px 1em black;
+    color: white;
+    text-align: center;
+    letter-spacing: 40px;
+}
+
+.text_main {
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+    line-height: 20px;
+    line-height: 1.5;
+}
+
+.h2_disc {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Avantgarde;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+.p3_disc {
+    font-size: 16px;
+    font-style: oblique;
+    font-family: Bradley Hand;
+    color: white;
+}
+
+.text_main_set {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.img_main {
+    width: 200px;
+    height: 250px;
+}
+
+
+/* Подвал страницы */
+
 footer {
     margin: 0 auto;
     background: linear-gradient(to right, rgb(22 47 122) 20%, #153ba7 80%);
@@ -90,7 +191,7 @@ footer {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     position: relative;
     padding-bottom: 30px;
