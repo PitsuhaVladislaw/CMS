@@ -1,0 +1,51 @@
+footer {
+    margin: 0 auto;
+    background: linear-gradient(to right, rgb(23 83 153) 20%, #153ba7 80%);
+    height: auto;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.position {
+    margin-bottom: 20px;
+}
+
+.container_foot {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 80px;
+}
+
+.contacts {
+    width: 380px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.topic {
+    font-size: 40px;
+    font-family: сursive;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    text-shadow: rgb(238 236 229) 3px 5px 8px;
+}
+
+.text-foot {
+    text-align: center;
+    font-size: 25px;
+    font-family: URW Chancery L;
+    font-style: oblique;
+    /*font-weight: 700; */
+    color: #f1e4e4;
+    word-spacing: 5px;
+    text-shadow: #FC0 1px 0 10px;
+}
