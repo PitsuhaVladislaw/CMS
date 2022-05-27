@@ -1,3 +1,5 @@
+/* Шапка страницы */
+
 header {
     padding: 20px 0;
     background: linear-gradient(to right, rgb(8 68 139) 20%, #2e56c6 80%);
@@ -62,6 +64,26 @@ header {
     background-color: rgb(67, 62, 62);
 }
 
+.text_check {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: rgb(6, 6, 6);
+    width: auto;
+    position: relative;
+    top: 6px;
+    text-shadow: 2px 2px 3px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+.button_check {
+    width: 120px;
+    height: auto;
+    text-align: center;
+    border: 1px solid rgb(35, 34, 34);
+    background-color: rgb(28, 50, 105);
+    border-radius: 30%;
+}
+
 .text_menu {
     font-size: 16px;
     font-family: sans-serif;
@@ -83,6 +105,73 @@ header {
     top: 16px;
 }
 
+
+/* Тело страницы */
+
+main {
+    padding: 10px;
+    height: auto;
+    background: linear-gradient(to bottom, rgb(89 146 212) 20%, #3b5291 80%);
+}
+
+.sector {
+    height: auto;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.h1_main {
+    font-size: 45px;
+    font-family: FreeMono;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 2px 2px 3px black, 10px 10px 1em black;
+    color: white;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.text_main {
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+    line-height: 20px;
+    line-height: 1.5;
+}
+
+.block {
+    width: 700px;
+    border: 5px double #112351;
+    padding: 10px;
+    border-radius: 10%;
+    height: auto;
+    background: #1b558f;
+    box-shadow: 3px 3px 4px black;
+    margin: 0 auto;
+}
+
+.sect {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.img_text {
+    height: 250px;
+    width: 680px;
+    border: 3px solid rgb(15, 15, 127);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.img_text:hover {
+    border: 3px double rgba(23, 23, 151, 0.829);
+}
+
+
+/* Подвал страницы */
+
 footer {
     margin: 0 auto;
     background: linear-gradient(to right, rgb(22 47 122) 20%, #153ba7 80%);
@@ -90,7 +179,7 @@ footer {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     position: relative;
     padding-bottom: 30px;
@@ -139,4 +228,44 @@ footer {
 .text-foot:hover {
     color: black;
     text-decoration: underline;
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    background-image: linear-gradient(19deg, #ffffff 0%, #2133ff 100%);
+    z-index: 1001;
+    color: #eee;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 10s infinite linear;
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 1.5s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
 }
