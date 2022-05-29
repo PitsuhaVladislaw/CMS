@@ -55,7 +55,7 @@ header {
     width: 120px;
     height: auto;
     text-align: center;
-    border: 1px solid rgb(35, 34, 34);
+    border: 3px ridge rgb(35, 34, 34);
     background-color: rgba(128, 128, 128, 0.482);
     border-radius: 30%;
 }
