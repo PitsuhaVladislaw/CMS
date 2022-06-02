@@ -44,7 +44,7 @@ header {
 
 .menu {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     height: 120px;
     position: relative;
     top: 10px;
