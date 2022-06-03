@@ -1,3 +1,151 @@
+/*Шапка*/
+
+header {
+    background: linear-gradient(to right, #163fb0 40%, rgb(28, 64, 173) 60%);
+    width: auto;
+}
+
+.container_head {
+    height: 440px;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 350px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.title_header {
+    font-size: 100px;
+    font-family: Luminari;
+    font-style: italic;
+    font-weight: 700;
+    color: grey;
+    letter-spacing: 60px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #392323, 0 0 1em #222020, 0 0 0.2em #b7b7e3;
+}
+
+.text_logo {
+    font-size: 24px;
+    font-family: Comic Sans MS;
+    font-style: oblique;
+    font-weight: 700;
+    color: white;
+    width: auto;
+    text-shadow: #dcd8c4 1px 0 10px;
+}
+
+.textik {
+    padding: 0px 20px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 50px;
+}
+
+.p1_text {
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    font-style: italic;
+    text-shadow: 2px 2px 3px black;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    height: 60px;
+}
+
+.button {
+    width: 145px;
+    height: 50px;
+    text-align: center;
+    border: 3px ridge rgb(35, 34, 34);
+    background-color: rgba(128, 128, 128, 0.482);
+}
+
+.button:hover {
+    background-color: rgb(67, 62, 62);
+}
+
+.text_check {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: rgb(6, 6, 6);
+    width: auto;
+    position: relative;
+    top: 6px;
+    text-shadow: 2px 2px 3px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+.text_menu {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: white;
+    width: auto;
+    position: relative;
+    top: 6px;
+}
+
+.text_menu:hover {
+    font-weight: bold;
+    color: black;
+    text-shadow: white 1px 0 10px;
+}
+
+.text_menu_one_word {
+    position: relative;
+    top: 16px;
+}
+
+
+/*Тело*/
+
+main {
+    width: auto;
+    margin: 0 auto;
+    background: linear-gradient(to top, rgb(34 75 200) 50%, #3157c6 80%);
+    display: grid;
+    gap: 30px;
+}
+
+.gran {
+    border-top: 7px double rgb(0, 0, 0);
+    border-bottom: 7px double rgb(0, 0, 0);
+    margin: 0 auto;
+    border-radius: 10%;
+    width: 750px;
+    padding: 30px 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.map {
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+    width: 800px;
+    padding: 15px;
+    border: 10px double black;
+}
+
+.map_pos {
+    margin: 0 auto;
+}
+
+
+/*Подвал*/
+
 footer {
     margin: 0 auto;
     background: linear-gradient(to right, rgb(22 47 122) 20%, #153ba7 80%);
